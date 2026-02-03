@@ -37,11 +37,10 @@ You can check the detailed results in `log.txt`.
 The key idea of SpecOffload is to leverage the underutilized GPU resources in existing offloading methods.
 
 ### Motivation: GPU resources underutilized
+![motivation1](./asset/motivation-util.png)
+![motivation2](./asset/motivation-memory.png)
 
-<div style="display: flex; gap: 10px;">
-  <img src="./asset/motivation-util.png" alt="motivation1" style="width: 49%; height: auto;">
-  <img src="./asset/motivation-memory.png" alt="motivation2" style="width: 49%; height: auto;">
-</div>
+
 
 * **Underutilization of GPU cores.**
 During the decoding phase, the average GPU core utilization of existing methods is only 13% at most.
